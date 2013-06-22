@@ -1,0 +1,42 @@
+{
+  "name": "voxel-tile",
+  "description": "Load google map or open street map style tiles in voxel.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/shama/voxel-tile",
+  "author": {
+    "name": "Kyle Robinson Young",
+    "email": "kyle@dontkry.com",
+    "url": "http://dontkry.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shama/voxel-tile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shama/voxel-tile/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shama/voxel-tile/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/beefy demo.js"
+  },
+  "dependencies": {
+    "voxel-mesh": "~0.2.1",
+    "voxel": "~0.3.1",
+    "inherits": "~2.0.0"
+  },
+  "devDependencies": {
+    "beefy": "~0.3.0",
+    "voxel-engine": "~0.18.1",
+    "voxel-player": "~0.1.0",
+    "voxel-walk": "0.0.5",
+    "voxel-fly": "~0.1.1"
+  }
+}
